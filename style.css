@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.main{
+    width: 100%;
+    /* background-color: #F5F5F6; */
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    gap: 30px;
+    margin-bottom: 2%;
+}
+.nav_left{
+    width: 45%;
+    padding: 1%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav_left img{
+    width: 60px;
+    padding: 0%;
+    margin: 0%;
+}
+.nav_left ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 100;
+    gap: 20px;
+}
+.nav_left ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav_left>ul>li>sup{
+    color: #F41CB2;
+    font-size: 65%;
+    font-weight: 500;
+}
+.nav_right{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav_right .search_box{
+    flex-basis: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.nav_right .search_box form{
+    display: flex;
+    flex-basis: 100%;
+    border: 1px solid black;
+    padding: 2%;
+    background-color:#F5F5F6 ;
+    border-radius: 5px;
+}
+.nav_right .search_box form button{
+    border: none;
+    font-size: 14px;
+    flex-basis: 10%;
+    background-color:#F5F5F6 ;
+    opacity: 0.7;
+}
+.nav_right .search_box form input{
+    border: none;
+    font-size: 14px;
+    flex-basis: 90%;
+    background-color:#F5F5F6 ;
+}
+
+.nav_right .items{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_right .items ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.nav_right .items ul li{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 5%;
+}
+.nav_right .items ul li i{
+    font-size: 18px;
+}
+.nav_right .items ul li b{
+    padding-top: 10px;
+    font-size: 12px;
+    /* word-spacing: 1px; */
+}
+.container{
+    width: 100%;
+    background-color: #FEFEFE;
+}
+.offer_section img{
+    width: 96%;
+    margin-left: 2%;
+}
+.banner_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left_banner_section{
+    flex-basis: 50%;
+}
+.left_banner_section img{
+    width: 100%;
+}
+.right_banner_section{
+    flex-basis: 50%;
+}
+.right_banner_section img{
+    width: 100%;
+}
